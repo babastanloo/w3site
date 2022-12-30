@@ -1,119 +1,137 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-:root{
-    --primary: hsla(0, 92%, 50%, 0.65);
-    --secondary: hsla(194, 100%, 50%, 0.65);
-    --tetiary: hsla(0, 0%, 0%, 0.65);
+:root {
+  --primary: hsla(0, 92%, 50%, 0.65);
+  --secondary: hsla(194, 100%, 50%, 0.65);
+  --tetiary: hsla(0, 0%, 0%, 0.65);
 }
 .bs-logo {
-    width: 60px;
-    border-radius: 50px;
+  width: 60px;
+  border-radius: 50px;
 }
 .branding {
-    font-size: 30px;
+  font-size: 30px;
 }
-#home1{
-    background-color: #fff;
-    background-image: linear-gradient(to top, rgb(194, 217, 221) 50%, rgb(245, 230, 18) 50%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-
+#home1 {
+  background-color: #fff;
+  background-image: linear-gradient(
+    to top,
+    rgb(234, 240, 241) 50%,
+    rgb(245, 230, 18) 50%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
-#about1{
-    background-color: #fff;
-    background-image: linear-gradient(to top, rgb(109, 11, 109) 40%, rgb(241, 227, 240) 60%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-
+#about1 {
+  background-color: #fff;
+  background-image: linear-gradient(
+    to top,
+    rgb(243, 108, 243) 40%,
+    rgb(241, 227, 240) 60%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
-#service1{
-    background-color: #fff;
-    background-image: linear-gradient(to top, rgb(8, 24, 252) 50%, rgb(8, 211, 211) 50%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-   
-}
-
-#contact1{
-    background-color: #fff;
-    background-image: linear-gradient(to top, white 50%, rgb(253, 4, 4) 50%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    border: 1px solid blueviolet;
-    border-radius: 4px;
-    font-weight: 500;
-}
-#start11{
-    background-color: red;
-    box-shadow: inset (0, 0, 0, #0000ff);
-    transition: ease-out;
-}
-#start11:hover{
-    box-shadow: inset (100px, 0, 0, #0000ff); 
+#service1 {
+  background-color: #fff;
+  background-image: linear-gradient(
+    to top,
+    rgb(133, 138, 201) 50%,
+    rgb(8, 211, 211) 50%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
-#about{
-    height: auto;
-    width: auto;
-    background: repeating-radial-gradient(farthest-corner at 20px 20px, var(--primary) 30%, var(--secondary) 60%, var(--tetiary) 10%);
+#contact1 {
+  background-color: #fff;
+  background-image: linear-gradient(to top, white 50%, rgb(253, 4, 4) 50%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  /* border: 1px solid blueviolet; */
+  border-radius: 4px;
+  font-weight: 500;
+}
+#start11 {
+  background-color: red;
+  box-shadow: inset (0, 0, 0, #0000ff);
+  transition: ease-out;
+}
+#start11:hover {
+  box-shadow: inset (100px, 0, 0, #0000ff);
+}
 
+#about {
+  height: auto;
+  width: auto;
+  background: repeating-radial-gradient(
+    farthest-corner at 20px 20px,
+    var(--primary) 30%,
+    var(--secondary) 60%,
+    var(--tetiary) 10%
+  );
 }
 .showcase {
-    background: linear-gradient(to right, var(--primary), var(--secondary), var(--tetiary)),
-                url('../image/logo1.png') no-repeat center center / cover;
-    background-position: center;
-    height: 600px;
-    padding: 100px 100px;
-    color: #fff;
-    background-size: cover;
+  background: linear-gradient(
+      to right,
+      var(--primary),
+      var(--secondary),
+      var(--tetiary)
+    ),
+    url("../image/logo1.png") no-repeat center center / cover;
+  background-position: center;
+  height: 600px;
+  padding: 100px 100px;
+  color: #fff;
+  background-size: cover;
 }
-.showcase h1{
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
+.showcase h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.showcase hr{
-    width: 200px;
-    margin: auto;
-    border-width: 3px;
-    border-color: #f50626;
+.showcase hr {
+  width: 200px;
+  margin: auto;
+  border-width: 3px;
+  border-color: #f50626;
 }
-.showcase p{
-    font-size: 16px;
-    padding-bottom: 20px;
+.showcase p {
+  font-size: 1rem;
+  padding-bottom: 20px;
 }
-.section{
-    padding: 40px 0;
+.section {
+  padding: 40px 0;
 }
-.section h2{
-    padding: 0;
-    margin: 0;
+.section h2 {
+  padding: 0;
+  margin: 0;
 }
-.section .fa{
-    font-size: 50px;
+.section .fa {
+  font-size: 50px;
 }
-.section img{
-    width: 100%;
+.section img {
+  width: 100%;
 }
 
-@media only screen and(max-width: 600px){
-    body{
-        margin-top: 190px;
-    }
-    .showcase{
-        height: 400px;
-        padding: 60px 0;
-    }
+@media only screen and(max-width: 600px) {
+  body {
+    margin-top: 190px;
+  }
+  .showcase {
+    height: 400px;
+    padding: 60px 0;
+  }
 }
